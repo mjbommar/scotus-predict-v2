@@ -1,4 +1,4 @@
-"""
+legacy_"""
 Supreme Court prediction model library.
 @date 20150926
 @author mjbommar
@@ -21,7 +21,7 @@ import sklearn.feature_selection
 import sklearn.preprocessing
 
 # Project imports
-from model_data import party_map_data, court_circuit_map
+from legacy_model_data import party_map_data, court_circuit_map
 
 
 # Path constants
