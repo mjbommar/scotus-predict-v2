@@ -1,4 +1,4 @@
-legacy_"""
+"""
 Supreme Court prediction model library.
 @date 20150926
 @author mjbommar
