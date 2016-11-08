@@ -172,8 +172,14 @@ def preprocess_raw_data(raw_data, include_direction=False):
     natural_court_codes, natural_court_encoded = binarize_values(raw_data.loc[:, "naturalCourt"])
 
     # Get argument/decision features
-    argument_date_raw = raw_data.loc[:, "dateArgument"].apply(get_date)
-    decision_date_raw = raw_data.loc[:, "dateDecision"].apply(get_date)
+    if raw_data.loc[:, "dateArgument"].dtype != numpy.dtype('<M8[ns]'):
+        argument_date_raw = raw_data.loc[:, "dateArgument"].apply(get_date)
+    else:
+        argument_date_raw = raw_data.loc[:, "dateArgument"]
+    if raw_data.loc[:, "dateDecision"].dtype != numpy.dtype('<M8[ns]'):
+        decision_date_raw = raw_data.loc[:, "dateDecision"].apply(get_date)
+    else:
+        decision_date_raw = raw_data.loc[:, "dateDecision"]
 
     argument_month_codes, argument_month_encoded = binarize_values(argument_date_raw.apply(get_date_month))
     decision_month_codes, decision_month_encoded = binarize_values(decision_date_raw.apply(get_date_month))
