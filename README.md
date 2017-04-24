@@ -1,8 +1,10 @@
 # A General Approach for Predicting the Behavior of the Supreme Court of the United States
 ==================
   * __N.B.__: This version supercedes the prior pre-print of the paper, which can be found at [mjbommar/scotus-predict](https://github.com/mjbommar/scotus-predict/).
-  *  __Title__: A General Approach for Predicting the Behavior of the Supreme Court of the United States
+  *  __Title__: A general approach for predicting the behavior of the Supreme Court of the United States
   *  __Authors__: [Daniel Martin Katz](http://www.law.msu.edu/faculty_staff/profile.php?prof=780), [Michael J Bommarito II](http://bommaritollc.com/), [Josh Blackman](http://joshblackman.com)
+  * __Publication URL__: [PLOS One](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174698)
+  * __Publication Cite__: Katz DM, Bommarito MJ II, Blackman J (2017) A general approach for predicting the behavior of the Supreme Court of the United States. PLoS ONE 12(4): e0174698. https://doi.org/10.1371/journal.pone.0174698
   *  __Paper URL__: [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2463244)
   *  __Blog URL__: [http://lexpredict.com/portfolio/predicting-the-supreme-court/](http://lexpredict.com/portfolio/predicting-the-supreme-court/)
 
